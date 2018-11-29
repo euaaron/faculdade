@@ -1,0 +1,21 @@
+body {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: #e6dc56;
+}
+
+td, th {
+    border: 3px solid #000000;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+*:lang(en) {
+    font-style: italic;
+    list-style-type: none;
+}

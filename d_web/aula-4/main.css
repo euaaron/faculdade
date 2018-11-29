@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	margin: 0px;
+}
+
+table, td, th { 
+	border: 1px solid black;
+	color: black;
+	background-color: grey;
+ }
+
+table {
+	margin: 0 auto;
+	width: 50%;
+	position: relative;
+}
+
+iframe {
+	border: none;
+}
+
+audio {
+	width: 100%;
+}
+
+article {
+	background-color: grey;
+	font-family: sans-serif;
+	color: white;
+	padding: 20px;
+	text-align: justify;
+}
+
+#youtube {
+	margin: 0 auto;
+	width: 50%;
+	position: relative;
+}
+
+#ifsudestemg iframe {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#ifsudestemg {
+	background-color: white;
+}

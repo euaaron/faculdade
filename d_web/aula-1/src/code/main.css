@@ -1,0 +1,61 @@
+* {
+	font-family: sans-serif;
+    margin: 0px;
+}
+
+#w3c img {
+    width: 250px;
+    
+}
+
+.banner {
+    background-color: #5779af;
+    width: 100%;
+    height: 256px;
+    position: relative;
+    border-bottom: 4px solid #131313;
+}
+
+.banner p {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    width: 256px;
+    top: 48px;
+    position: absolute;
+}
+
+.paises div {
+    background-color: #efefef;
+    position: relative;
+    width: 256px;
+    left: 16px;
+    float: left;
+}
+
+.listas {
+    top: 128px;
+    background-color: #efefef;
+    position: relative;
+    width: 100%;
+    height: 256px;
+}
+
+.listas div {
+    background-color: #cccccc;
+    width: 256px;
+    height: 256px;
+    position: relative;
+    float: left;
+}
+
+footer {
+    margin-top: 128px;
+    background-color: #efefef;
+    border-top: 2px solid #131313;
+    height: 256px;
+    width:100%;
+    bottom: 0px;
+    position: relative;
+}

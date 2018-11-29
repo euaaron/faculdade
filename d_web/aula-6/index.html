@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Aaron Stiebler"/>
+    <meta name='date' content='13 de Setembro de 2018'>
+    <meta name='search_date' content='2018-09-13'>
+    <meta name="keywords" content="aula 6,formulários,HTML,CSS,hospedagem,Aaron,bsi,ifsudestemg">
+    <meta name="description" content="Este site é um exercício da 6a aula de Desenvolvimento Web, do Bacharelado em Sistemas de Informação, do IF Sudeste MG - Campus Juiz de Fora, aplicado pelo prof. Marcelo.">
+    <title>Aula 6 | Intro. ao CSS e Publicando um site</title>
+    <style>
+    label {
+      background-color: lightblue;
+      font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="cadastro.php" id="cadastro" method="post">
+      <table>
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td><input type="text" id="nome" name="nome"></td>
+        </tr>
+        <tr>
+          <td><label for="senha">Senha:</label></td>
+          <td><input type="text" id="senha" name="senha"></td>
+        </tr>
+        <tr>
+          <td>Sexo:</td>
+          <td>
+            <input type="radio" name="sexo" id="M" value="M"><label for="M">Masc</label>
+            <input type="radio" name="sexo" id="F" value="F"><label for="F">Fem</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="checkbox" id="resMG" name="resMG" value="sim"><label for="resMG">Residente em <span style="text-decoration:underline">Minas Gerais</span></label></td>
+        </tr>
+        <tr>
+          <td><label for="faixaSal">Faixa Salarial:</label></td>
+          <td><label for="opiniao">Sua opinião:</label></td>
+        </tr>
+        <tr>
+          <td>
+            <select id="faixaSal" name="faixaSal" size="5">
+              <option value="menos">Menos que 500,00</option>
+              <option value="500">500,00 - 1.000,00</option>
+              <option value="1000">1.000,00 - 5.000,00</option>
+              <option value="5000">5.000,00 - 10.000,00</option>
+              <option value="10000">Mais que 10.000,00</option>
+            </select>
+          </td>
+          <td>
+            <textarea id="opiniao" name="opiniao" form="cadastro" rows="5"></textarea>
+          </td>
+        </tr>
+      </table>
+      <br/>
+      <input type="submit" value="Enviar"/>
+    </form>
+  </body>
+</html>
