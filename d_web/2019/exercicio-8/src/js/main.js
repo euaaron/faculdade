@@ -2,7 +2,7 @@ function mudaImagem(num) {
     var caminho = "src/images/";
     switch (num) {
         case 1:
-            $('#mapa').attr('src', caminho + "brasil.jpg");
+            $('#mapa').attr('src', caminho + "brasil.jpeg");
             break;
         case 2:
             $('#mapa').attr('src', caminho + "minas.jpeg");
