@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapas Clicáveis</title>
+    <meta name="author" content="Aaron Stiebler C. da Silva"/>
+    <meta name="description" content="Exercício 3 da aula de Desenvolvimento Web do curso Bacharelado em Sistemas de Informação."/>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+<header>
+    <h1>Exercício 3 da aula de Desenvolvimento Web.</h1>
+    <p>A propósta do exercício é fazer uma página que contenha uma imagem com um link e uma cópia da mesma imagem, porém com setores clicáveis.</p>
+    <span>Dia 16 de Agosto de 2019</span><span class="signature">Aaron Stiebler</span>
+</header>
+<div class="container" id="black">
+    <article>
+        <h2>Image Link</h2>
+        <hr/>
+        <a href="https://www.ifsudestemg.edu.br/"><img src="./if-logo-png-2.png" alt="IF Sudeste MG" title="IF Sudeste MG"></a>
+    </article>
+    <article>
+        <h2>Image Map</h2>
+        <hr/>
+        <img src="./if-logo-png-2.png" usemap="#image_map" alt="IF Sudeste MG">
+        <map name="image_map">
+            <area target="_blank" alt="Campus Juiz de Fora" title="Campus Juiz de Fora" href="https://www.ifsudestemg.edu.br/juizdefora" coords="114,62,50" shape="circle">
+            <area target="_blank" alt="Campus Barbacena" title="Campus Barbacena" href="https://www.ifsudestemg.edu.br/barbacena" coords="166,16,350,104" shape="rect">
+            <area target="_blank" alt="Campus Rio Pomba" title="Campus Rio Pomba" href="https://www.ifsudestemg.edu.br/riopomba" coords="252,395,253,309,157,310,155,211,70,211,69,396" shape="poly">
+        </map>
+    </article>
+</div>
+</body>
+</html>

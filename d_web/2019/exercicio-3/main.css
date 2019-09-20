@@ -1,0 +1,66 @@
+html, body {
+    font-family: monospace;
+    background-color: #e8e8e8;
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    margin: 0% 5%;
+}
+
+.signature {
+    position: absolute;
+    right: 0px;
+}
+
+hr {
+    border-color: #2d2d2d;
+}
+
+header p {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#black {
+    background: #2d2d2d;
+}
+
+article {
+    background-color: white;
+    margin: 15px 5%;
+    position: relative;
+    padding: 5px 15px;
+    width: 100%;
+    max-width: 420px;
+    float: left;
+}
+
+article image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 1% 5%;
+    width: 90%;
+}
+
+h6 {
+    margin: 0px;
+    top: -15px;
+    position: relative;
+}
+
+dt {
+}

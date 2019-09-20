@@ -1,0 +1,33 @@
+html, body {
+    font-family: monospace;
+    background-color: #e8e8e8;
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    margin: 0% 5%;
+}
+
+article {
+    background-color: white;
+    margin: 15px 5%;
+    position: relative;
+    padding: 5px 15px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 1% 5%;
+    width: 90%;
+}
+
+h6 {
+    margin: 0px;
+    top: -15px;
+    position: relative;
+}
+
+dt {
+}

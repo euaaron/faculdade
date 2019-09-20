@@ -1,0 +1,62 @@
+html, body {
+    font-family: monospace;
+    text-align: center;
+}
+td {
+    background-image: url("../images/fundo.jpeg");
+    background-size: cover;
+    width: 20%;
+}
+td span {
+    font-size: 2em;
+}
+th {
+    text-align: left;
+    height: 100px;
+    color: white;
+    font-size: 2em;
+    padding-left: 5px;
+}
+th[colspan] {
+    background: linear-gradient(to right, black, white)!important;
+}
+table {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    height: 80%;
+    border-style: solid;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+.text-center {
+    text-align: center;
+}
+#mapa-cel {
+    background: none;
+    width: 40%;
+}
+footer {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    bottom: 0;
+}
+footer ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+}
+
+a:hover {
+    border: 2px solid #F00;
+}
+
+a:focus {
+    border: 2px solid #F00;
+}
