@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 8 | D. Web</title>
+        <link rel="stylesheet" href="src/css/style.css"/>
+        <script src="src/js/jquery-3.4.1.min.js"></script>
+        <script src="src/js/main.js"></script>
+    </head>
+    <body>
+    <header>
+        <h1>Desenvolvimento Web</h1>
+    </header>
+    <section><h2>Exercício 8</h2></section>
+    <nav>
+        <ul>
+            <li><a href="https://euaaron.github.io">Início</a></li>
+            <li><a href="#conteudo">Conteúdo</a></li>
+            <li><a href="#rodape">Rodapé</a></li>
+        </ul>
+    </nav>
+    <div id="conteudo">
+        <table about="mapas">
+            <caption>Mapa</caption>
+            <thead>
+            <tr>
+                <th colspan="2">Sua localização</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="text-center"><a href="#pais" id="pais" accesskey="p"><span>País</span></a></td>
+                <td rowspan="3" class="text-center" id="mapa-cel">
+                    <img id="mapa" src="src/images/brasil.jpg" alt="Mapa do Brasil">
+                    <noscript>
+                        <img id="mapa-alt" src="src/images/brasil.jpg" alt="Mapa do Brasil">
+                    </noscript>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center"><a href="#estado" id="estado" accesskey="e"><span>Estado</span></a></td>
+            </tr>
+            <tr>
+                <td class="text-center"><a href="#cidade" id="cidade" accesskey="c"><span>Cidade</span></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer id="rodape">
+        <p>Aaron Stiebler C. da Silva</p>
+        <ul>
+            <li><a href="github.com/euaaron">github</a></li>
+        </ul>
+    </footer>
+    </body>
+    </html>

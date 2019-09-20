@@ -1,0 +1,14 @@
+html, body {
+    background: #efefef;
+}
+
+article {
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+    background: white;
+}
+
+* {
+    list-style: none;
+}
