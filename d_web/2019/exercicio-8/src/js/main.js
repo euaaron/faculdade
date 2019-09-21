@@ -1,3 +1,4 @@
+/**
 function mudaImagem(num) {
     var caminho = "src/images/";
     switch (num) {
@@ -13,21 +14,21 @@ function mudaImagem(num) {
     }
 }
 $("#mapa").load();
+**/
 
-/**
- var caminho = "src/images/";
+var caminho = "src/images/";
 
- $("#pais").click(function() {
+document.getElementById("pais").addEventListener("click", function(){
     $('#mapa').attr('src', caminho + "brasil.jpg");
+    $("#mapa").load();
 });
 
- $("#estado").click(function() {
+document.getElementById("estado").addEventListener("click", function(){
     $('#mapa').attr('src', caminho + "minas.jpeg");
+    $("#mapa").load();
 });
 
- $("#cidade").click(function() {
+document.getElementById("cidade").addEventListener("click", function(){
     $('#mapa').attr('src', caminho + "mata.png");
+    $("#mapa").load();
 });
-
- $("#mapa").load();
- **/
