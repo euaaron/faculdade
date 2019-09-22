@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e027e6-2583-4327-adcf-b09f2048062d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercicio-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/euaar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-8/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-8/src/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
   <component name="ProjectId" id="1R6bE8fvENX1i5dnUjNERZzG8sd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -48,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568990379082</updated>
       <workItem from="1568990381660" duration="712000" />
-      <workItem from="1569028531739" duration="2287000" />
+      <workItem from="1569028531739" duration="4489000" />
     </task>
     <servers />
   </component>

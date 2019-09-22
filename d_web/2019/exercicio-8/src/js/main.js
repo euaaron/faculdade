@@ -1,4 +1,24 @@
 /**
+ * Author: Aaron Silva
+ * Email: euaaron@outlook.com
+ *
+ * Date: 20/09/2019
+ * */
+
+var caminho = "src/images/";
+
+document.getElementById("pais").addEventListener("click", trocaImagem("brasil.jpg"));
+
+document.getElementById("estado").addEventListener("click", trocaImagem("minas.jpeg"));
+
+document.getElementById("cidade").addEventListener("click", trocaImagem("mata.png"));
+
+function trocaImagem (image) {
+    $('#mapa').attr('src', caminho + image);
+    $('#mapa').load();
+}
+
+/**
 function mudaImagem(num) {
     var caminho = "src/images/";
     switch (num) {
@@ -16,19 +36,3 @@ function mudaImagem(num) {
 $("#mapa").load();
 **/
 
-var caminho = "src/images/";
-
-document.getElementById("pais").addEventListener("click", function(){
-    $('#mapa').attr('src', caminho + "brasil.jpg");
-    $("#mapa").load();
-});
-
-document.getElementById("estado").addEventListener("click", function(){
-    $('#mapa').attr('src', caminho + "minas.jpeg");
-    $("#mapa").load();
-});
-
-document.getElementById("cidade").addEventListener("click", function(){
-    $('#mapa').attr('src', caminho + "mata.png");
-    $("#mapa").load();
-});
