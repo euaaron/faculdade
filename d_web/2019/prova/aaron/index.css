@@ -1,0 +1,26 @@
+.fundoCinza {
+    background: #2d2d2d;
+    color: white;
+}
+
+th {
+    font-weight: normal;
+    padding: 5px 50px 5px 5px;
+}
+
+td {
+    padding: 4px;
+}
+
+td[rowspan] {
+    text-align: start;
+    cursor: help;
+}
+
+table, tr, td {
+    border-color: black;
+    border-width: thin;
+    border-collapse: collapse;
+    border-style: solid;
+}
+

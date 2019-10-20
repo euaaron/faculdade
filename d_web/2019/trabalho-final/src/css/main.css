@@ -1,0 +1,44 @@
+@import url(fonts.css);
+@import url(bootstrap.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-red { background-color: #c8222a; }
+.bg-blue { background-color: #0f65c8; }
+.bg-green { background-color: #30c848; }
+.bg-orange { background-color: #c86a25; }
+.bg-white {
+    color: black !important;
+    background-color: white;
+}
+.bg-red a { color: white;}
+.bg-blue a { color: white; }
+.bg-green a { color: white; }
+.bg-white a { color: black !important; }
+.bg-white a:hover { color: #2d2d2d !important; }
+.bg-orange a { color: white; }
+
+.font-white { color: white; }
+
+.social div { position: relative; height: 2em; width: 2em; text-align: center !important; display: block}
+.social div a i {
+    vertical-align: center !important;
+}
+.social {position: relative; right:0 !important;}
+
+footer { background: #1d2124; color: white; }
+footer a { color: white; }
+footer a:hover {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+footer i { font-size: 1em; margin: 0.5em}
+.mapa li:first-child { list-style: none; }
+.mapa li:first-child:hover { list-style: none; }
+.mapa li { list-style: none; }
+.mapa ul li i { visibility: hidden; }
+.mapa ul li i:hover { visibility: visible; }
+.mapa li a:hover { color: royalblue;}

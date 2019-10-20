@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 11 - D. Web</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-info">
+                <small>INSTITUTO FEDERAL DO SUDESTE DE MINAS GERAIS - CAMPUS JUIZ DE FORA</small>
+                <h1>2019.2 - Desenvolvimento Web</h1> 
+                <div>
+                    <span><small>Aluno: </small>Aaron Stiebler C. da Silva</span>
+                    <span><small>Curso: </small> BSI</span>
+                    <span><small>Turma: </small> 01B</span>
+                    <small>Exercício referente à aula do dia 18/10/2019</small>
+                    <span><small>Data: </small> 19/10/19</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="exercicio" class="container">
+        <article class="questao">
+            <div>
+                <h2>Exercício 11</h2>
+                <h3>FAÇA COMO NO VÍDEO:</h3>
+            </div>
+            <video src="src/video/video.mp4" autoplay loop></video>
+        </article>
+        <article id="resposta">
+            <h2>Resposta:</h2>
+            <div>
+                <p>Você me ama?</p>
+                <button id="btn1" onmouseover="botaoUm()">Sim</button>
+                <button id="btn2" onmouseover="botaoDois()">Não</button>
+            </div>
+        </article>        
+    </div>
+    <div class="container desenvolvimento">
+        <h2>Desenvolvimento:</h2>
+        <p>Para resolver esse exercício, visando impedir que alguma mudança ocorresse na página ao passar o cursor 
+           sobre o botão "Sim", foram utilizados dois eventos <code>onmouseover</code> 
+           e duas chamadas de diferentes funções, sendo uma para cada evento. Tais eventos foram 
+           adicionados aos botões, os quais identifiquei como <code>btn1</code> e <code>btn2</code>, 
+           enquanto as funções desses eventos nomeei como <code>botaoUm()</code> e <code>botaoDois()</code>.
+           Veja abaixo o código na íntegra:
+        </p>
+        <p>HTML</p>
+        <xmp>
+            <p>Você me ama?</p>
+            <button id="btn1" onmouseover="botaoUm()">Sim</button>
+            <button id="btn2" onmouseover="botaoDois()">Não</button>
+        </xmp>
+        <p>JavaScript</p>
+        <xmp>
+            //Um contador para identificar oquê acontecerá ao passar o cursor sobre o botão "Não"
+            estado = 0;
+
+            function botaoUm() {
+                um = document.getElementsByTagName("button")[0].innerHTML;
+                dois = document.getElementsByTagName("button")[1].innerHTML;
+                
+                //Verifica se é o "Não", caso seja, executa uma função que troca o estado do botão
+                if (um == "Não") { troca(); }
+            }
+                
+            function botaoDois() {
+                um = document.getElementsByTagName("button")[0].innerHTML;
+                dois = document.getElementsByTagName("button")[1].innerHTML;
+                
+                //Verifica se é o "Não", caso seja, executa uma função que troca o estado do botão
+                if (dois == "Não") { troca(); }
+            }
+                
+            function troca() {
+                switch(estado) {
+                    case 2: //Volta para os valores originais, incluindo o do estado.
+                        btn2.style.top = "0px";
+                        btn1.innerHTML = "Sim";
+                        btn2.innerHTML = "Não";
+                        estado = 0;
+                    break;
+                        
+                    case 1: //Troca os valores dos botões e muda o estado para 2
+                        btn1.innerHTML = "Não";
+                        btn2.innerHTML = "Sim";
+                        estado++;
+                    break;
+                                
+                    default: //Move o botão para baixo e muda o estado para 1
+                        btn2.style.top = "128px";
+                        estado++;
+                    break;
+                }
+            }
+        </xmp>
+    </div> 
+</body>
+</html>

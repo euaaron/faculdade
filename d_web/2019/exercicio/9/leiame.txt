@@ -1,0 +1,7 @@
+Crie um arquivo o mais parecido possivel com a imagem em "modelo.png".
+DICAS:
+- A fonte do título "Linguagens de programação mais usadas" está no arquivo "CollectionFree.otf"
+- A imagem utilizada para a borda da lista está na pasta "img".
+- tente aproximar ao máximo o tamanho das fontes e a disposição dos elementos.
+
+

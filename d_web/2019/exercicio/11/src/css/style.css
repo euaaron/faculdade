@@ -1,0 +1,136 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f1f1f1;
+    top: 0;
+}
+
+header {
+    position: relative;
+    padding: 20px 20px 10px 20px;
+    margin: 0;
+    top: 0;
+    width: calc(100% - 40px);
+    height: auto;
+    background: #1d2124; 
+    color: white; 
+    border-bottom: solid 2px #4b6ba7;
+}
+
+.header-info {
+    width: 100%;
+    text-align: left;
+}
+
+.header-info h1 {
+    position: relative;
+    font-size: 200%;
+}
+
+.header-info div span {
+    position: relative;
+    font-size: 80%;
+    text-align: left !important;
+}
+
+.header-info div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-info div * {
+    margin-right: 5px;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    left: calc(50% - 500px);
+}
+
+#exercicio {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#exercicio article {
+    padding: 0;
+    margin: 0;
+}
+
+xmp {
+    color: #3d3d3d;
+    background: #ffffff;
+}
+
+.questao div * {
+    font-weight: lighter;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 4px;
+}
+
+.questao div h2 {
+    background: #4b6ba7;
+    display: table-cell;
+    color: white;
+}
+
+.questao video {
+    position: relative;
+    top: 20px;
+    width: 75%;
+}
+
+#resposta {
+    position: relative;
+    width: calc(50% - 20px);
+    height: auto;
+}
+
+#resposta div {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    background: #ffffff;
+    width: 100%;
+    height: calc(80% + 20px);
+}
+
+#resposta div button {
+    padding: 5px 15px;
+    font-size: medium;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 2px #4b6ba7;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#resposta div button:active {
+    border-color:#4b6ba7;
+    background-color: #4b6ba7;
+    color: #f1f1f1;
+}
+
+#btn2 {
+    position: relative;
+    top: 0px;
+}
+
+.desenvolvimento {
+    position: relative;
+    padding: 20px 0 20px 0;
+    top: 30px;
+    text-align: justify;
+}
+
+
