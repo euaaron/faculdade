@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1570792406 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\fila\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1570792329 c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\fila\fila.h
+
+1570792524 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\fila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"fila.h"
+

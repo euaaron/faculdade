@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1571419871 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\trabalhoaaron\heroi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"heroi.h"
+
+1571419710 c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\trabalhoaaron\heroi.h
+
+1571419563 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\trabalhoaaron\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	"heroi.h"
+

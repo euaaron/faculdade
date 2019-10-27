@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1570624538 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\pilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1570624285 c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\pilha\pilha.h
+
+1570624704 source:c:\users\euaar\onedrive\ifjf\graduation\actualperiod\estruturas de dados\proj\pilha\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
