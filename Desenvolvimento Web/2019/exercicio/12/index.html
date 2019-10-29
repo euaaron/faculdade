@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <title>CEP</title>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="../../global-src/bootstrap/css/bootstrap.css">
 </head>
 <body>
-    <div>
+    <div class="jumbotron">
         <h1>Exercício 12</h1>
         <p>Faça um formulário com um campo "CEP" que seja dinâmicamente formatado.</p>
+        <p>Passos:</p>
+        <ol>
+            <li>Verificar se o valor inserido já está no formato correto.</li>
+            <li>Caso contrário, a cada valor que for inserido:
+            <ol>
+                <li>Fazer uma cópia dos valores;</li>
+                <li>Remover caracteres não numéricos;</li>
+                <li>Retornar caracteres formatados.</li>
+            </ol>
+            </li>
+        </ol>
     </div>
-    <div>
+    <div class="container">
         <form action="" method="post">
             <label for="cep">CEP:</label>
-            <input type="text" name="cep" id="cep" onkeyup="formataCEP()">
-            <button type="button" id="validar" onclick="validaCEP()">Validar</button>
+            <input type="text" name="cep" id="cep" onkeyup="filtraCEP()">
         </form>
+        <div id="aviso"></div>
     </div>
 <script src="src/code.js"></script>
 </body>
