@@ -118,7 +118,7 @@ function gameMenu() {
     menu.appendChild(recordHUD);
     menu.appendChild(inicio);
     
-    inicio.innerHTML = "Capture o cowboy!".toUpperCase();    
+    inicio.innerHTML = "Acerte o cowboy!".toUpperCase();    
     boasVindas.innerHTML = "Tens o que é preciso para ser mouse mais rápido do oeste?".toUpperCase();
 }
 
