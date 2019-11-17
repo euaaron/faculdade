@@ -76,10 +76,6 @@ body {
     bottom: 8vw;
 }
 
-#saloon h3 {
-    font-family: cursive;
-}
-
 #const1 {
     z-index: 4;
     background-image: url("../assets/const1.png");
@@ -131,6 +127,12 @@ body {
     text-align: center;
     width: 25%;
     height: 50%;
+}
+
+#menu h3 {
+    font-size: medium;
+    font-size-adjust: inherit;
+    font-stretch: normal;
 }
 
 #inicio {
