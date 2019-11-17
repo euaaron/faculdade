@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FExercício 13 | D. Web</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="../../global-src/bootstrap/css/bootstrap.css">
+</head>
+<body>
+<div class="jumbotron">
+    <h1>Exercício 13</h1>
+    <p>Faça um campo "CPF" que seja dinâmicamente formatado.</p>
+    <p>Passos:</p>
+    <ol>
+        <li>Verificar se o valor inserido já está no formato correto.</li>
+        <li>Caso contrário, a cada valor que for inserido:
+            <ol>
+                <li>Fazer uma cópia dos valores;</li>
+                <li>Remover caracteres não numéricos;</li>
+                <li>Retornar caracteres formatados.</li>
+            </ol>
+        </li>
+    </ol>
+</div>
+<div class="container">
+    <form action="" method="post">
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" onkeyup="filtraCPF()">
+    </form>
+    <div id="aviso"></div>
+</div>
+<script src="src/code.js"></script>
+</body>
+</html>

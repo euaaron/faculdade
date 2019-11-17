@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Match</title>
+</head>
+<body>
+<script type="text/javascript">
+    function filtrar() {
+        var filtro = /porra|caralho|merda/igm;
+        var res = texto.value.match(filtro);
+        retorno.innerHTML = res;
+        if(filtro.test(res)) {
+            retorno.innerHTML = res + "<br> Não fale palavrões, seu merdinha!";
+        }
+    }
+</script>
+<form>
+    <label for="texto">Texto: </label>
+    <input type="text" name="texto" id="texto">
+    <input type="button" value="Clique" onclick="filtrar()">
+</form>
+<div id="retorno"></div>
+</body>
+</html>

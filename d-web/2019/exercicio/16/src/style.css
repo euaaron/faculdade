@@ -1,0 +1,171 @@
+html, body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("mouseMaisRapido/fundo.jpeg");
+}
+
+#painel {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0.5vw;
+    font-size: x-large; 
+    font-weight: bold;
+}
+
+#record {
+    z-index: 10;
+    margin: 0.5vw;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#tempo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0.5vw;
+    font-size: x-large;
+}
+
+#jogo {
+    z-index: 0;
+    position: absolute;
+    background: #6eb9eb;
+    width: 100vw;
+    height: 100vh;
+}
+
+#sol {
+    z-index: 1;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-image: url('../assets/sol.png');
+    background-size: cover;
+    margin: 0.5vw;
+    /* O posicionamento é feito randomicamente por Javascript */
+}
+
+#solo {
+    z-index: 3;
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-image: url("../assets/solo.png");  
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+
+#saloon {
+    z-index: 4;
+    position: absolute;
+    background-image: url("../assets/saloon.png"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw; 
+    height: 25vw;
+    bottom: 8vw;
+}
+
+#saloon h3 {
+    font-family: cursive;
+}
+
+#const1 {
+    z-index: 4;
+    background-image: url("../assets/const1.png");
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw; 
+    height: 25vw;
+    bottom: 8vw;
+}
+
+#const2 {
+    z-index: 4;
+    background-image: url("../assets/const2.png");
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw; 
+    height: 25vw;
+    bottom: 8vw;  
+}
+
+#cowboy {
+    z-index: 5;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-image: url("../assets/cowboy.png");
+    background-size: cover;
+    /* O posicionamento é feito randomicamente por Javascript */
+}
+
+#container {
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 90%);
+    border-radius: 0.5vw;
+    text-align: center;
+    width: 25%;
+    height: 50%;
+}
+
+#inicio {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 0.5vw 0.5vw;
+}
+
+#inicio:hover {
+    cursor: pointer;
+}
+
+#cowboy:hover {
+    cursor: pointer;
+}
+
+#cacto1 {
+    z-index: 6;
+    position: absolute;
+    width: 8vw;
+    height: 12vw;
+    background-image: url("../assets/cacto1.png");
+    background-size: cover;
+    /* O posicionamento é feito randomicamente por Javascript */
+}
+
+#cacto2 {
+    z-index: 6;
+    position: absolute;
+    width: 4.3vw;
+    height: 12vw;
+    background-image: url("../assets/cacto2.png");
+    background-size: cover;
+    /* O posicionamento é feito randomicamente por Javascript */
+}
