@@ -10,7 +10,7 @@ body {
 
 #painel {
     z-index: 10;
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     margin: 0.5vw;
@@ -20,8 +20,8 @@ body {
 
 #record {
     z-index: 10;
-    margin: 0.5vw;
-    font-size: x-large;
+    margin: 0.2vw;
+    font-size: 2vh;
     font-weight: bold;
 }
 
@@ -106,7 +106,7 @@ body {
     height: 8vw;
     background-image: url("../assets/cowboy.png");
     background-size: cover;
-    /* O posicionamento é feito randomicamente por Javascript */
+    /* O posicionamento é feito randomicamencontainerte por Javascript */
 }
 
 #container {
@@ -117,6 +117,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    display: run-in;
 }
 
 #menu {
@@ -140,6 +141,8 @@ body {
     height: 30%;
     left: 0;
     bottom: 0;
+    background: #c02d00;
+    color: whitesmoke;
     border-radius: 0 0 0.5vw 0.5vw;
     font-size: 6vh;
     font-weight: bold;
@@ -207,6 +210,10 @@ body {
         font-size: 3vh;
     }
 
+    #record {
+        font-size: 2vh;
+    }    
+
     #jogo {
         width: 100vw;
         height: 100vh;
@@ -215,4 +222,6 @@ body {
     #solo {
         width: 100vw;
     }
+
+    
   }
