@@ -26,6 +26,8 @@ var boasVindas = document.createElement("h1");
 var inicio = document.createElement("button");
 var container = document.createElement("div");
 
+var borda = document.createElement("borda");
+
 // Atribuí um id a eles
 jogo.id = "jogo";
 sol.id = "sol";
@@ -47,9 +49,12 @@ container.id = "container";
 menu.id = "menu";
 inicio.id = "inicio";
 
+borda.id = "borda"
+
 window.addEventListener("load", () => {
-    document.body.appendChild(container);
-    document.body.appendChild(jogo); 
+    document.body.appendChild(borda);
+    borda.appendChild(container);
+    borda.appendChild(jogo); 
     jogo.appendChild(solo);
     gameMenu();
 });
@@ -68,7 +73,7 @@ inicio.addEventListener("click", () => {
     // Para mover até no máximo metade da tela (50%), usa-se o valor 2. 
     // Pois aí é feira a divisão do tamanho da tela por 2 (50%)
     // Seguindo essa lógica, para 100% usa-se o valor 1, para 80 usa-se 1.2, etc
-    moveObj(sol, 1.2, 2);
+    moveObj(sol, 1.4, 2);
     var numConst = getRandom(0,3);
 
     switch(numConst) {
