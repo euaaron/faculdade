@@ -119,7 +119,7 @@ function gameMenu() {
     menu.appendChild(inicio);
     
     inicio.innerHTML = "Acerte o cowboy!".toUpperCase();    
-    boasVindas.innerHTML = "Tens o que é preciso para ser mouse mais rápido do oeste?".toUpperCase();
+    boasVindas.innerHTML = "Tens o que é preciso para ser o mouse mais rápido do oeste?".toUpperCase();
 }
 
 function atualizaPainel() {
