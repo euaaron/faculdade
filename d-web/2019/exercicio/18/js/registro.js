@@ -1,0 +1,1 @@
+var register = document.getElementById('reg

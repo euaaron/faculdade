@@ -128,7 +128,7 @@ function gameMenu() {
 }
 
 function atualizaPainel() {
-    if(count === 10) {
+    if(count <= 10) {
         if (dataFim == null) {
             dataFim = new Date();
             //player.style.backgroundImage = "url('../assets/tumulo.png')";
